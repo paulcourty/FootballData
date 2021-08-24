@@ -10,11 +10,15 @@ It contains information on:
 - Best Betting Odd
 - Match & Score Outcome
 
+<br>
+
 I started this project a while ago when a friend of mine (big fan of football) was checking this website to get valuable information and the best betting odds out there. I was learning Python at the time and thought it would be a good idea to automate & scale his calculations with **Python**, **web scraping** and **SQL**. It turned out to work pretty well ! 
 
-The project is organised in the following way:
+<br>
+
+The code is organised in the following way:
 - `web_scrape.ipynb`: A Notebook to web scrape the entire Pronosoft Data (50,000+ matches up to date) with the BeautifulSoup library, and save it into the `pronosoft_data.csv` file.
-- `extend_database.ipynb`: A Notebook to process the CSV data and add columns & features into `pronosoft_data_extended.csv`.
+- `extend_database.ipynb`: A Notebook to add columns & features into `pronosoft_data_extended.csv`.
 - `viz_data.ipynb`: A Notebook to visualise the CSV data directly in Python.
 - `explore_database.ipynb`: A Notebook to run the `build_database.py` script and build an SQLite database from the CSV file. You can also do simple SQL queries directly from the Notebook, but would recommend then using more specialised Database Management tools like `Datagrip` or `BigQuery`.
 
@@ -41,8 +45,6 @@ Data Visualization samples:
 <br>
 
 ![Proportion of Outcomes](https://github.com/paulcourty/FootballData/blob/main/Figures/Proportion%20of%20Outcomes.png)
-
-<br>
 
 - Accuracy of Pronosoft's Predictions on match outcomes
 
