@@ -1,0 +1,18 @@
+To do next 
+
+- try out different queries with SQL and visualizations with Python or Tableau
+
+
+
+GIT BASIC
+
+
+git init -b main
+
+git remote add origin  <REMOTE_URL> 
+git remote -v       # Verifies the new remote URL
+
+dit add .
+git commit -m "1st commit"
+
+git push origin main

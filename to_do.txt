@@ -1,0 +1,4 @@
+To do next 
+
+- try out different queries with SQL and visualizations with Python & Tableau
+- ML with Python
