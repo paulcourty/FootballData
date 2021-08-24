@@ -69,7 +69,7 @@ For **Unix/macOS**:
 ```sh
 python3 -m venv .env_FootballData
 source .env_FootballData/bin/activate
-pip install -r requirements.txt   # Includes JupyterLab
+pip install -r requirements.txt   
 ```
 
 For **Windows**:
@@ -77,12 +77,14 @@ For **Windows**:
 ```sh
 py -m venv .env_FootballData
 call .env_FootballData/Scripts/activate
-pip install -r requirements.txt   # Includes JupyterLab
+pip install -r requirements.txt   
 ```
+
+**Note**: `requirements.txt` contains Jupyter Lab, it will take a bit of time to download.
 
 <br>
 
-The Jupyter environment will take a bit of time to download. To run the scripts:
+To run the scripts:
 
 ```sh
 jupyter lab
