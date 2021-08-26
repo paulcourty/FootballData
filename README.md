@@ -75,7 +75,7 @@ Data Visualization samples:
 
 ![Actual Outcome Vs Probabilities from Betting Odds](https://github.com/paulcourty/FootballData/blob/main/Figures/Actual%20Outcome%20Vs%20Percentage%20from%20Betting%20Odds.png)
 
-It's really interesting to see that Betting Odds reflect almost perfectly the probabilities of outcomes (Team 1 or Team 2 Win or Nul): this means that Bookmakers are really good at their job and that gamblers will almost certainly lose on average, which is not a huge surprise. But there might be statistical arbitrage opportunities in the market ! 
+It's really interesting to see that Betting Odds reflect almost perfectly the probabilities of outcomes (Team 1 or Team 2 Win or Nul): this means that Bookmakers are really good at their job and that gamblers will almost certainly lose on average, which is not a huge surprise. But there might be **statistical arbitrage** opportunities in the market ! 
 
 <br>
 
