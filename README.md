@@ -2,7 +2,7 @@
 
 <br>
 
-The aim of the project is to explore the [Pronosoft](https://www.pronosoft.com/fr/bookmakers/pronostics/) Football database - _ongoing project_.
+The aim of the project is to explore the [Pronosoft](https://www.pronosoft.com/fr/bookmakers/pronostics/) Football database — _ongoing project_.
 
 It contains information on:
 - Team & League Names
@@ -36,21 +36,44 @@ You can find the original Pronosoft Football data at this link:
 
 <br>
 
+Dataset sample:
+
+<br>
+
+| date       | league                   | time  | team_1_name | team_2_name | team_1_prob | team_1_bet_odds | nul_prob | nul_bet_odds | team_2_prob | team_2_bet_odds | prediction_team_pronosoft | team_1_score | team_2_score |
+|:-----------|:-------------------------|------:|------------:|------------:|------------:|----------------:|---------:|-------------:|------------:|----------------:|--------------------------:|-------------:|---------------:|
+| 01-10-2018 | France - Ligue 2         | 20:45 | Troyes      | Auxerre     | 0.39        | 2.75            | 0.18        | 3.1  | 0.43        | 2.8             | None                      | 1            | 0            |
+| 01-10-2018 | Espagne - Liga Espagnole | 21:00 | Celta Vigo  | Getafe      | 0.33        | 2.15            | 0.38        | 3.2  | 0.3         | 3.6             | N                         | 1            | 1            |
+
+**Note**: You can find the dataset in the `Data` folder as a CSV file (`pronosoft_data.csv`) or in the `SQL` folder as an SQLite database (`Football_Data.sqlite`). You can load the former with Python or the latter with SQL by using your preferred database access tool — I have a preference for [DataGrip](https://www.jetbrains.com/datagrip/) — to transform & analyse the data.
+
+<br>
+
 Data Visualization samples:
 
 <br>
 
-- Pie Chart of outomes
+- Pie Chart of Outomes
 
 <br>
 
 ![Proportion of Outcomes](https://github.com/paulcourty/FootballData/blob/main/Figures/Proportion%20of%20Outcomes.png)
 
-- Accuracy of Pronosoft's Predictions on match outcomes
+- Actual Outcome Vs Pronosoft's Predictions on Match Outcomes
 
 <br>
 
-![Accuracy of Percentage Predictions](https://github.com/paulcourty/FootballData/blob/main/Figures/Accuracy%20of%20Percentage%20Predictions.png)
+![Actual Outcome Vs Percentage Predictions](https://github.com/paulcourty/FootballData/blob/main/Figures/Actual%20Outcome%20Vs%20Percentage%20Predictions.png)
+
+<br>
+
+- Actual Outcome Vs Percentage from Betting Odds
+
+<br>
+
+![Actual Outcome Vs Percentage from Betting Odds](https://github.com/paulcourty/FootballData/blob/main/Figures/Actual%20Outcome%20Vs%20Percentage%20from%20Betting%20Odds.png)
+
+It's really interesting to see that Betting Odds reflect almost perfectly the probabilities of outcomes (Team 1 or Team 2 Win or Nul): this means that Bookmakers are really good at their job and that gamblers will almost certainly lose on average, which is not a huge surprise. But there might be statistical arbitrage opportunities in the market ... to be continued ! 
 
 <br>
 
