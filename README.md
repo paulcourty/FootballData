@@ -45,6 +45,8 @@ Dataset sample:
 | 01-10-2018 | France - Ligue 2         | 20:45 | Troyes      | Auxerre     | 0.39        | 2.75            | 0.18        | 3.1  | 0.43        | 2.8             | None                      | 1            | 0            |
 | 01-10-2018 | Espagne - Liga Espagnole | 21:00 | Celta Vigo  | Getafe      | 0.33        | 2.15            | 0.38        | 3.2  | 0.3         | 3.6             | N                         | 1            | 1            |
 
+<br>
+
 **Note**: You can find the dataset in the `Data` folder as a CSV file (`pronosoft_data.csv`) or in the `SQL` folder as an SQLite database (`Football_Data.sqlite`). You can load the former with Python or the latter with SQL by using your preferred database access tool — I have a preference for [DataGrip](https://www.jetbrains.com/datagrip/) — to transform & analyse the data.
 
 <br>
@@ -53,7 +55,7 @@ Data Visualization samples:
 
 <br>
 
-- Pie Chart of Outomes
+- Pie Chart of Outcomes
 
 <br>
 
@@ -63,17 +65,17 @@ Data Visualization samples:
 
 <br>
 
-![Actual Outcome Vs Percentage Predictions](https://github.com/paulcourty/FootballData/blob/main/Figures/Actual%20Outcome%20Vs%20Percentage%20Predictions.png)
+![Actual Outcome Vs Probability Predictions](https://github.com/paulcourty/FootballData/blob/main/Figures/Actual%20Outcome%20Vs%20Percentage%20Predictions.png)
 
 <br>
 
-- Actual Outcome Vs Percentage from Betting Odds
+- Actual Outcome Vs Bookmakers' Predictions on Match Outcomes (based on Betting Odds)
 
 <br>
 
-![Actual Outcome Vs Percentage from Betting Odds](https://github.com/paulcourty/FootballData/blob/main/Figures/Actual%20Outcome%20Vs%20Percentage%20from%20Betting%20Odds.png)
+![Actual Outcome Vs Probabilities from Betting Odds](https://github.com/paulcourty/FootballData/blob/main/Figures/Actual%20Outcome%20Vs%20Percentage%20from%20Betting%20Odds.png)
 
-It's really interesting to see that Betting Odds reflect almost perfectly the probabilities of outcomes (Team 1 or Team 2 Win or Nul): this means that Bookmakers are really good at their job and that gamblers will almost certainly lose on average, which is not a huge surprise. But there might be statistical arbitrage opportunities in the market ... to be continued ! 
+It's really interesting to see that Betting Odds reflect almost perfectly the probabilities of outcomes (Team 1 or Team 2 Win or Nul): this means that Bookmakers are really good at their job and that gamblers will almost certainly lose on average, which is not a huge surprise. But there might be statistical arbitrage opportunities in the market ! 
 
 <br>
 
