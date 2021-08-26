@@ -40,10 +40,10 @@ Dataset sample:
 
 <br>
 
-| date       | league                   | time  | team_1_name | team_2_name | team_1_prob | team_1_bet_odds | nul_prob | nul_bet_odds | team_2_prob | team_2_bet_odds | prediction_team_pronosoft | team_1_score | team_2_score |
-|:-----------|:-------------------------|------:|------------:|------------:|------------:|----------------:|---------:|-------------:|------------:|----------------:|--------------------------:|-------------:|---------------:|
-| 01-10-2018 | France - Ligue 2         | 20:45 | Troyes      | Auxerre     | 0.39        | 2.75            | 0.18        | 3.1  | 0.43        | 2.8             | None                      | 1            | 0            |
-| 01-10-2018 | Espagne - Liga Espagnole | 21:00 | Celta Vigo  | Getafe      | 0.33        | 2.15            | 0.38        | 3.2  | 0.3         | 3.6             | N                         | 1            | 1            |
+| date          | league                   | time  | team_1_name | team_2_name | team_1_prob | team_1_bet_odds | nul_prob | nul_bet_odds | team_2_prob | team_2_bet_odds | prediction_team_pronosoft | team_1_score | team_2_score |
+|:--------------|:-------------------------|:-----:|:------------|:------------|:-----------:|:---------------:|:--------:|:------------:|:-----------:|:---------------:|:-------------------------:|:------------:|:------------:|
+| 01-10-2018    | France - Ligue 2         | 20:45 | Troyes      | Auxerre     | 0.39        | 2.75            | 0.18     | 3.1          | 0.43        | 2.8             | None                      | 1            | 0            |
+| 01-10-2018    | Espagne - Liga Espagnole | 21:00 | Celta Vigo  | Getafe      | 0.33        | 2.15            | 0.38     | 3.2          | 0.3         | 3.6             | N                         | 1            | 1            |
 
 <br>
 
