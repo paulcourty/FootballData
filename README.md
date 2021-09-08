@@ -20,7 +20,7 @@ The code is organised in the following way:
 - `web_scrape.ipynb`: A Notebook to web scrape the entire Pronosoft Data (50,000+ matches up to date) with the BeautifulSoup library, and save it into the `pronosoft_data.csv` file.
 - `extend_database.ipynb`: A Notebook to add columns & features into `pronosoft_data_extended.csv`.
 - `viz_data.ipynb`: A Notebook to visualise the CSV data directly in Python.
-- `explore_database.ipynb`: A Notebook to run the `build_database.py` script and build an SQLite database from the CSV file. You can also do simple SQL queries directly from the Notebook, but would recommend then using more specialised Database Management tools like `Datagrip` or `BigQuery`.
+- `explore_database.ipynb`: A Notebook to build an SQLite database from the CSV files. You can also do simple SQL queries directly from the Notebook, but would recommend then using more specialised Database Management tools like `Datagrip` or `BigQuery`.
 
 <br>
 
